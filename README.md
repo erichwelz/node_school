@@ -1,4 +1,4 @@
 node_school
 ===========
 
-Learning NodeJS
+Learning NodeJS through coursework on nodeschool.io
