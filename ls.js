@@ -1,0 +1,1 @@
+var dirModule = require ('./dirmodule.js')
