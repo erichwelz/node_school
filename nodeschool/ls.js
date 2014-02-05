@@ -5,7 +5,7 @@ var ext = "." + process.argv[3]
 
 ls(dir, ext, function(err, list){
 if (err) {
-  return console.log("There was an error:", err)
+  return console.log("error!", err)
   }
 list.forEach(function(file){
   console.log(file);

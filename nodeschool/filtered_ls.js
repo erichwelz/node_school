@@ -8,6 +8,5 @@ fs.readdir(dir, function(err, list) {
   list.forEach(function(file) {
   if(path.extname(file) === ext)
   console.log(file);
-  console.log(dir);
   })
 });

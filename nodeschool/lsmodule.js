@@ -6,9 +6,8 @@ module.exports = function(dir, ext, callback) {
     if (err) {
       return callback(err);
     }
-  list.forEach(function(file) {
-  if(path.extname(file) === ext)
-  console.log(file);
+  list = list.filter(function(file) {
+    return(path.extname(file) === ext)
   })
 
   callback(null, list);
