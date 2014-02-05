@@ -1,4 +1,7 @@
 node_school
 ===========
 
-Learning NodeJS through coursework on nodeschool.io
+Learning NodeJS through:
+
+Walkthrough in "The Node Beginner Book by Manuel Kiessling"
+coursework on nodeschool.io
